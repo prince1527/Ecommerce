@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Delivery Website</title>
+
+    <!-- FAVICON -->
+    <link rel="icon" type="image/png" href="images/favicon.png">
+
+    <!-- Bootstrap 5 CDN Links -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- Custom File's Link -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/responsive-style.css">
+
+</head>
+
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="75">
+    <!-- Navbar section -->
+    <header class="header_wrapper">
+        <nav class="navbar navbar-expand-lg fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="logo1.png" class="img-fluid" alt="logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fas fa-stream navbar-toggler-icon"></i>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav menu-navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#menu">Menu</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#offers">Offers</a>
+                        </li>
+                       
+                        <li class="nav-item">
+                            <a class="nav-link" href="http://localhost:2000/p1.html">Sign-Up</a>
+                        </li>
+                        <li class="nav-item mt-3 mt-lg-0">
+                            <a class="main-btn" onclick="sign()" href="http://localhost:2000/">Order Online</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- Navbar section exit -->
+
+    <!-- Banner section -->
+    <section id="home" class="banner_wrapper">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-5 text-center text-lg-start order-lg-1 order-2">
+                    <h1><span>Din</span><span class="ayu">eat</span><span>table</span><br></h1>
+                    <p>Why starve when you have us get good food within minutes Delivering happiness</p>
+
+                    <a class="main-btn mt-4" href="#menu">View Menu</a>
+                </div>
+                <div class="col-lg-7 text-center order-lg-2 order-1">
+                    <img src="img/img-2.png" class="img-fluid">
+                </div>
+            </div>
+            <div class="row top-menu mt-5">
+                <div class="col-lg-3 col-sm-6  mb-4">
+                    <div class="card">
+                        <img src="img/img-1.png" alt="menu">
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6  mb-4">
+                    <div class="card">
+                        <img src="img/img-3.jpg" alt="menu">
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6  mb-4">
+                    <div class="card">
+                        <img src="img/img-4.jpg" alt="menu">
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6  mb-4">
+                    <div class="card">
+                        <img src="img/img-5.jpg" alt="menu">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Banner section exit -->
+
+    <!-- About section -->
+    <section id="about" class="about_wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-4 col-lg-5 mb-4 mb-lg-0 order-lg-1 order-2">
+                    <div class="card rounded-0">
+                        <div class="card-body pt-5">
+                            <h3>About US</h3>
+                            <p>We are Dineattable providing food to everyone at their home with economical price. We believe that food is better made from scratch, and that’s why we make ours from scratch .  </p>
+
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-8 col-lg-7 mb-4 mb-lg-0 order-lg-2 order-1">
+                    <img src="bg/bg-2.jpg" class="img-fluid" alt="About Us">
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- About section exit -->
+
+    <!-- menu section -->
+    <section id="menu" class="menu_wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card">
+                        <div class="card-body text-md-start text-center">
+                            <h3><span class="fst-italic">01</span>  beverages</h3>
+                            <img src="fj.jpg" class="img">
+                            <p class="fst-italic">Tea - Rs:20 , coffee Rs:15 , coldcoffee Rs:60, softdrinks  Rs:40 , All fruit juice  Rs:35 ,mocktails  Rs:50 , chocolate shake  Rs:90 etc</p>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card">
+                        <div class="card-body text-md-start text-center">
+                            <h3><span class="fst-italic">02</span> Salad</h3>
+                            <img src="salad.jpg" class="img">
+                            <p class="fst-italic">Sprout Rs:90 , salad Rs:50 , chickpea salad Rs:70 , Fruit salad  Rs:30, salads of pasta  Rs:150, Leafy Green Salad  Rs:90</p>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card">
+                        <div class="card-body text-md-start text-center">
+                            <h3><span class="fst-italic">03</span> Burgers & fries </h3>
+                            <img src="burger.jpg" class="img">
+                            <p class="fst-italic">Aloo tikki burger  Rs:150, Chicken burger  Rs:250 , doubledecker burger  Rs:299 , mexican burger  Rs:450, Cheese peri peri fries  Rs:150, nachos  Rs:50, plain salted fries  Rs:150</p>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card">
+                        <div class="card-body text-md-start text-center">
+                            <h3><span class="fst-italic">04</span> cakes & desserts </h3>
+                            <img src="desert.jpg" class="img">
+                            <p class="fst-italic">Chocolate Truffle cake  Rs:150, mix fruit  cake  Rs:180, Red velvet cake  Rs:250,  pan cake  Rs:199, Choco lava cake  Rs:295,  Oreo iceream  Rs:99 , Brownie  Rs:95 .</p>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card">
+                        <div class="card-body text-md-start text-center">
+                            <h3><span class="fst-italic">05</span> Pasta and pizza</h3>
+                            <img src="pizza.jpg" class="img">
+                            <p class="fst-italic">Red sauce pasta  Rs:250 , pink sauce pasta  Rs:290, white sauce pasta  Rs:220, Margherita pizza  Rs:280, chicken pepperoni pizza  Rs:390, paneer tikka pizza  Rs:350, New york pizza  Rs:350</p>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card">
+                        <div class="card-body text-md-start text-center">
+                            <h3><span class="fst-italic">06</span> Vegan</h3>
+                            <img src="vegan.jpg" class="img">
+                            <p class="fst-italic">Veg sandwich Rs:50 , nut pasta  Rs:250, veg burito with salsa dip  Rs:250 , Oats  Rs:20,Tofu salad  Rs:50, Corn soup  Rs:60  </p>
+                            
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- menu section exit -->
+
+    <!-- Offer Section -->
+    <section id="offers" class="offers_wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 text-center mb-4">
+                    <h2>Best Offers</h2>
+                    
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 mb-4">
+                    <div class="card rounded-0" style="background-image: url('img/img-1.png')">
+                        <div class="offer-text bg-black bg-opacity-50">
+                            <h3 class="text-white">salad + black coffee </h3>
+                            <h5>Rs:250 <del class="fst-italic opacity-75">Rs:300</del></h5>
+                            <a onclick="sign()" href="https://projectexibit.herokuapp.com" class="main-btn mt-3">Add TO Cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-4">
+                    <div class="card rounded-0" style="background-image: url('img/img-2.png')">
+                        <div class="offer-text bg-black bg-opacity-50">
+                            <h3 class="text-white">Farmhouse pizza(L) + Softdrink(500ml)</h3>
+                            <h5>Rs:555 <del class="fst-italic opacity-75">Rs:600</del></h5>
+                            <a onclick="sign()" href="https://projectexibit.herokuapp.com/p1.html" class="main-btn mt-3">Add TO Cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-4">
+                    <div class="card rounded-0" style="background-image: url('img/img-3.jpg')">
+                        <div class="offer-text bg-black bg-opacity-50">
+                            <h3 class="text-white">Sandwich+ Fresh juice(300ml)</h3>
+                            <h5>Rs:350 <del class="fst-italic opacity-75">Rs:400</del></h5>
+                            <a onclick="sign()" href="https://projectexibit.herokuapp.com/p1.html" class="main-btn mt-3">Add TO Cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-4">
+                    <div class="card rounded-0" style="background-image: url('img/img-4.jpg')">
+                        <div class="offer-text bg-black bg-opacity-50">
+                            <h3 class="text-white">Burger+Fries</h3>
+                            <h3 class="text-white">+softdrink(500ml)</h3>
+                            <h5>Rs:300 <del class="fst-italic opacity-75">Rs:400</del></h5>
+                            <a onclick="sign()" href="https://projectexibit.herokuapp.com/p1.html" class="main-btn mt-3">Add TO Cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-4">
+                    <div class="card rounded-0" style="background-image: url('img/img-4.jpg')">
+                        <div class="offer-text bg-black bg-opacity-50">
+                            <h3 class="text-white">Burger + choco lavar</h3>
+                            <h5>Rs:259 <del class="fst-italic opacity-75">Rs:300</del></h5>
+                            <a onclick="sign()" href="https://projectexibit.herokuapp.com/p1.html" class="main-btn mt-3">Add TO Cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-4">
+                    <div class="card rounded-0" style="background-image: url('img/img-5.jpg')">
+                        <div class="offer-text bg-black bg-opacity-50">
+                            <h3 class="text-white">Chocolate truffle(1 piece) + Ice cream</h3>
+                            <h5>Rs120 <del class="fst-italic opacity-75">Rs150</del></h5>
+                            <a onclick="sign()" href="https://projectexibit.herokuapp.com/p1.html" class="main-btn mt-3">Add TO Cart</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- offer Section exit -->
+
+    
+
+    <!-- Footer section -->
+    <section id="contact" class="footer_wrapper mt-3 mt-md-0">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-4 col-md-6 text-center text-md-start">
+                    <div class="footer-logo mb-3 mb-md-0">
+                        <img src="logo1.png">
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <ul
+                        class="list-unstyled d-flex justify-content-center justify-content-md-end justify-content-lg-center jus social-icon mb-3 mb-md-0">
+                        <li>
+                            <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i> </a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com"><i class="fab fa-twitter"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/feed/"><i class="fab fa-linkedin-in"></i> </a>
+                        </li>
+                    </ul>
+                </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer section exit -->
+
+    <!-- Bootstrap 5 JS CDN Links -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+
+    <!-- Custom Js Link -->
+    <script src="JS.js"></script>
+</body>
+
+</html>
+
+
