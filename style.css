@@ -66,6 +66,9 @@ a {
 section {
     padding: 100px 0;
 }
+.ayu{
+    color:#111111;
+}
 
 .main-btn {
     display: inline-block;
@@ -337,8 +340,13 @@ p {
     color: var(--primary-color);
 }
 
+
 <!--Responsive Design-->
-@media (max-width: 1199px) {
+ @media(max-width:1000px) 
+     
+ 
+    
+ {
     /* custom css */
     h1 {
         font-size: 65px;
@@ -391,6 +399,10 @@ p {
 
     .banner_wrapper .top-menu .card {
         height: 200px;
+    }
+    .img{
+        height:70px;
+        width:70px;
     }
 
     /* About */
@@ -445,9 +457,19 @@ p {
         min-height: 460px;
     }
 }
+@media (min-width:1000px) {
+    .img{
+        height:100px;
+        width:170px;
+        margin-left:50px;
+    }
+    .im{
+        height:500px;
+        width:80%;
+        
+    }
+    
+}
 
-.ah{
-    height:100px;
-    width:50px;
-}      
+        
       
