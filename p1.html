@@ -1,0 +1,65 @@
+
+
+<!DOCTYPE html>
+<head>
+    <title>
+        sign in page
+    </title>
+    <meta charset="UTF-8">
+    <link rel= "stylesheet" type="text/css" href="p1.css">
+    <meta name="viewport" content="width=device-width", initial-scale = "1.0">
+</head>
+<body>
+
+    <div class="S">
+        <div class="A">
+            <div class="imgA">
+                <img src="https://pranav5060.github.io/DSN-project-2/img/img-4.jpg" >
+            </div>
+
+            <div class="formA">
+                <p class = "h"> SIGN IN </p>
+                        <form action="/signin"  method="POST">
+                            <input type="text"  id="email" name="email" placeholder="Email" required />
+                            <br>
+                            <input type="password"  id="password" name="password" placeholder="Password" required />
+                            <br>
+                            <input type="submit" value="Submit" id="submit" />     
+                        </form>
+                        <p>Don't have an account ? <a href= "#" onclick="form()" >Sign up </a></p>
+            </div>
+
+        </div>
+
+        <div class="B">
+            
+
+            <div class="formB">
+                <h1 class = 'h text-danger '> SIGN UP </h1>
+                <form action="/items" method="POST" >
+                    <input type="text"  id="name" name="name" placeholder="Name"  />
+                    <br>
+                    <input type="text"  id="email" name="email" placeholder="Email"  />
+                    <br>
+                    
+                    <input type="password"  id="password" name="password" placeholder="Password"  />
+                    <br>
+                    <input type="submit" value="Submit" id="submit" />
+                    <p>Already have an account ? <a href="#" onclick="form()" >Sign in </a></p>
+                </form>
+            </div>
+            <div class="imgB">
+                <img src="https://pranav5060.github.io/DSN-project-2/img/img-5.jpg" >
+            </div>
+
+        </div>
+    </div>    
+    </body>
+    <script>
+        function form(){
+            var cont = document.querySelector('.S');
+            cont.classList.toggle('active')
+        }
+        console.log(email)
+    </script>
+    </html>
